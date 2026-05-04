@@ -329,8 +329,9 @@ export default function BaseChat({
     });
   };
 
-  const showPopularTopics =
-    messages.length === 0 && !initialMessage && chatState === ChatState.Idle;
+  const showPopularTopics = false;
+  // TODO: add to chat settings.
+  // messages.length === 0 && !initialMessage && chatState === ChatState.Idle;
 
   const chat: ChatType = {
     messages,
